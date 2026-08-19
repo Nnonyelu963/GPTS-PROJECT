@@ -1,0 +1,229 @@
+body{
+    background-image: url("../img/img-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    margin: 0;
+    display: flex;
+    background: transparent(10,0,0);
+    backdrop-filter: blur(0.005em);
+    max-width: auto;
+    max-height: auto;
+    padding-left: 0.635em;
+    padding-right: 0.635em;
+    border: radius 0.9375em; 
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+}
+ header .log{
+    color: white;
+    font-size: 1.9625em;
+    font-weight: 300;
+    font-style: italic;
+    font-family: cursive;
+    padding-left: 0.625em;
+}
+header nav{
+    display: flex;
+    padding-left: 0.625em;
+    padding-right: 28.125em;
+}
+header nav ul{
+    display: flex;
+    font-family: cursive;
+    gap: 1.875em;
+    list-style: none;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+header nav ul  a{
+    text-decoration: none;
+    font-size: 1.089em;
+    color: white;
+}
+header nav ul a:hover{
+    color: burlywood;
+    font-weight: 200;
+    transform: scale(1.05);
+}
+.hero{
+    display: block;
+    background: transparent(10,0,0);
+    max-width: auto;
+    max-height: auto;
+    margin-top: 2.5em;
+}
+.herosec{
+    padding-bottom: 0.625em;
+}
+.herosec h1{
+    font-size: 3em;
+    color: burlywood;
+    font-family: cursive;
+    padding-left: 0.625em;
+}
+.herosec h2{
+    font-size: 2.5em;
+    color: white;
+    font-family: cursive;
+    padding-left: 0.625em;
+    padding-top: 0%;
+}
+.herosec p{
+    font-size: 2.132em;
+    color: white;
+    font-family:monospace
+}
+.btn{
+    background: transparent;
+    backdrop-filter: blur(0.095em);
+    font-size: 0.963em;
+    margin-top: 0.625em;
+    padding: 6px 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 17px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background: burlywood;
+    font-weight: 200;
+    font-size: 1em;
+    transform: scale(1.05);
+}
+.btn:hover a{
+    color: black;
+}
+.featsec{
+    display: flex;
+    background: rgb(102, 63, 13);
+    color: white;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0.9479em;
+    margin-right: 0.9479em;
+    border-radius: 20px;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.featsec .card{
+    gap: 0.9375em;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+}
+.featsec:hover{
+    background: rgb(80, 33, 1);
+}
+.featsec:hover .card{
+    font-weight: 400;
+}
+.drsec{
+    background: white;
+    border-radius: 20px;
+    margin-top: 5em;
+    display: flex;
+    padding-top: 2.4em;
+    padding-bottom: 2.4em;
+    padding-left: 2.4em;
+    padding-right: 2.4em;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+.drsec-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.drsec .mg{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.drsec .mg img{
+    max-width: 250px;
+    max-height: 300px;
+    object-fit: contain;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.drsec .mg p{
+    font-family: fantasy;
+    font-size: 1em;
+    color: rgb(102, 50, 2);
+    text-align: center;
+}
+.drsec .mg .purce{
+    background: red;
+    border-radius: 15px;
+    font-size: 1.35em;
+}
+.drsec .mg a{
+    padding: 3px 6px;
+    color: rgb(230, 230, 238);
+    text-decoration: none;
+}
+.drsec .mg img:hover{
+    max-width: 280px;
+    max-height: 330px;
+}
+.testsec{
+    display: block;
+    background: rgb(102, 63, 13);
+    color: white;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 0.9479em;
+    margin-right: 0.9479em;
+    border-radius: 20px;
+    margin-top: 5em;
+}
+.testsec h1{
+    font-size: 2em;
+    color: burlywood;
+    font-family: cursive;
+    text-align: center;
+}
+.testsec .testsecdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+.testcard{
+    gap: 0.9375em;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+}
+footer{
+    display: block;
+    background: rgb(31, 6, 77);
+    color: white;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 0.9479em;
+    margin-right: 0.9479em;
+    border-radius: 20px;
+    margin-top: 5em;
+}
+footer .social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875em;
+    padding-top: 0.875em;
+    padding-bottom: 0.875em;
+    color: white;
+    font-size: 1.5em;
+}
+footer p{
+    text-align: center;
+    padding-bottom: 0.875em;
+}
